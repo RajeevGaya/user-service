@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: user-app-container
-          image: rajeevgaya/spring-cicd-user-service:1.0.0-12
+          image: 'rajeevgaya/spring-cicd-user-service:1.0.0-13'
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9393
