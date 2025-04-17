@@ -7,4 +7,4 @@ COPY ./target/spring-cicd-user-service.jar /app
 # Expose the port the Spring Boot application will run on
 EXPOSE 9393
 # Command to run the application
-CMD ["java", "-jar", "user-service.jar"]
+CMD ["java", "-jar", "spring-cicd-user-service.jar"]
